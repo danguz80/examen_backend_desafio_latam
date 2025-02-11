@@ -37,7 +37,7 @@ describe("Operaciones CRUD de cafes", () => {
 });
 
 afterAll(() => {
-    server.close(); // Ahora sí podemos cerrar el servidor correctamente
+    server.close();
 });
 
 
